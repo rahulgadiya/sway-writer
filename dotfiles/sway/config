@@ -1,0 +1,8 @@
+# Main Sway config
+
+# Load modular configs
+include ~/.config/sway/keybindings.conf
+include ~/.config/sway/theme.conf
+include ~/.config/sway/windowrules.conf
+
+
