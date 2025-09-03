@@ -1,7 +1,7 @@
 # Mako notification daemon configuration
 
 # Font configuration - matching your terminal setup
-font=Iosevka 11
+font=Iosevka 12
 
 # Colors - clean black/white theme to match your aesthetic
 background-color=#000000

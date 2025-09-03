@@ -1,0 +1,23 @@
+{
+  "layer": "top",
+  "position": "top",
+  "modules-left": ["clock"],
+  "modules-center": ["window"],
+  "modules-right": ["pulseaudio", "network", "battery"],
+  "clock": {
+    "format": "{:%H:%M}"
+  },
+  "pulseaudio": {
+    "format": " {volume}%"
+  },
+  "network": {
+    "format-wifi": "  {essid}",
+    "format-ethernet": " {ifname}",
+    "format-disconnected": ""
+  },
+  "battery": {
+    "format": "{capacity}% {icon}",
+    "format-icons": ["", "", "", "", ""]
+  }
+}
+

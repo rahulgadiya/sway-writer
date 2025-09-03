@@ -1,0 +1,21 @@
+* {
+  font-family: "Iosevka", monospace;
+  font-size: 14px;
+  border-radius: 8px;
+}
+
+window#waybar {
+  background: #000000;
+  color: #ffffff;
+}
+
+#clock, #window, #pulseaudio, #network, #battery {
+  padding: 4px 10px;
+  margin: 2px;
+  background: #111111;
+  border: 1px solid #555555;
+}
+
+#battery.warning { color: #bbbbbb; }
+#battery.critical { color: #ff0000; }
+

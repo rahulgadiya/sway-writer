@@ -1,0 +1,29 @@
+# ======================
+## NANORC CONFIGURATION
+## =====================
+# --- Enable Features ---
+set linenumbers         # Show line numbers
+set softwrap            # Wrap text at the edge of the screen
+set tabsize 4           # Tabs are 4 spaces
+set tabstospaces        # Convert tabs to spaces
+set autoindent          # Auto-indent new lines
+set indicator           # Show scrollbar-like indicator
+set mouse               # Enable mouse support
+set smarthome           # Smart home key behavior
+set stateflags          # Show modified/readonly state
+set trimblanks          # Remove trailing whitespace on save
+set zap                 # Allow delete/ctrl+del to erase words
+set magic               # Use libmagic for syntax detection 
+# --- Color Scheme ---
+set titlecolor cyan,black
+set promptcolor brightwhite,black
+set statuscolor brightyellow,black
+set selectedcolor black,green
+set numbercolor brightblue,black
+set functioncolor magenta,black
+set keycolor green,black
+set errorcolor brightred,black
+
+# --- Load Additional Syntax Files ---
+include "/usr/share/nano/*.nanorc"
+
